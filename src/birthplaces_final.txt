@@ -1,13 +1,13 @@
 TuPac
-East Harlem, New York, U.S.
+East Harlem, New York City, New York, U.S.
 Eminem
 St. Joseph, Missouri, U.S.
 The Notorious B.I.G.
-Brooklyn, New York, U.S.
+Brooklyn, New York City, New York, U.S.
 Nas
-Brooklyn, New York, United States
+Brooklyn, New York City, New York, United States
 Jay-Z
-Brooklyn, New York, U.S.
+Brooklyn, New York City, New York, U.S.
 Ice Cube
 Los Angeles, California, U.S
 Snoop Dogg
@@ -27,15 +27,15 @@ Compton, California, U.S.
 DMX (rapper)
 Yonkers, New York, U.S.
 50 Cent
-South Jamaica, Queens, New York, U.S.
+South Jamaica, Queens, New York City, New York, U.S.
 Busta Rhymes
-Brooklyn, New York, U.S.
+Brooklyn, New York City, New York, U.S.
 Mos Def
 Brooklyn, New York City, New York, United States
 KRS-One
-South Bronx, New York, U.S.
+The Bronx, New York City, New York, U.S.
 Method Man
-Staten Island, New York, U.S.
+Staten Island, New York City, New York, U.S.
 J. Cole
 Fayetteville, North Carolina, U.S.
 Outkast
@@ -43,27 +43,27 @@ Atlanta, Georgia, United States
 Common (rapper)
 Chicago, Illinois, United States
 LL Cool J
-Hollis, Queens, New York
+Hollis, Queens, New York City, New York, U.S.
 Ludacris
-Atlanta, Georgia
+Atlanta, Georgia, U.S.
 T.I.
 Atlanta, Georgia, United States
 Big L
-Harlem, New York, U.S.
+Harlem, New York City, New York, U.S.
 Ghostface Killah
-Staten Island, New York, United States
+Staten Island, New York City, New York, United States
 Redman (rapper)
 Newark, New Jersey, United States
 Big Pun
-The Bronx, New York
+The Bronx, New York City, New York, U.S.
 Scarface (rapper)
 Houston, Texas, United States
 Slick Rick
-The Bronx, New York, United States
+The Bronx, New York City, New York, United States
 Big Daddy Kane
 Bedford-Stuyvesant, Brooklyn, New York City, New York, United States
 Raekwon
-Staten Island, New York, U.S.
+Staten Island, New York City, New York, U.S.
 Lil Wayne
 New Orleans, Louisiana, U.S.
 Lauryn Hill
@@ -71,35 +71,35 @@ East Orange, New Jersey, U.S.
 Lupe Fiasco
 Chicago, Illinois, United States
 Ol' Dirty Bastard
-Brooklyn, New York, U.S.
+Brooklyn, New York City, New York, U.S.
 Beastie Boys
 New York City, New York, United States
 Nate Dogg
 Eastside, Long Beach, California, U.S.
 GZA
-Brooklyn, New York, U.S.
+Brooklyn, New York City, New York, U.S.
 Tech N9ne
 Kansas City, Missouri, United States
 The Game (rapper)
 Compton, California, U.S.
 RZA
-Staten Island, New York
+Staten Island, New York City, New York, U.S.
 Notorius BIG
-Brooklyn, New York, U.S.
+Brooklyn, New York City, New York, U.S.
 Talib Kweli
 Brooklyn, New York City, New York, U.S.
 Mobb Deep
-Queensbridge, Queens, New York, U.S.
+Queensbridge, Queens, New York City, New York, U.S.
 Cypress Hill
 South Gate, California, U.S.
 Xzibit
 Detroit, Michigan, U.S.
 Q-Tip (rapper)
-St. Albans, Queens, New York, United States
+St. Albans, Queens, New York City, New York, United States
 Chuck D
 Roosevelt, New York, United States
 Immortal Technique
-Harlem, New York, U.S.
+Harlem, New York City, New York, U.S.
 Big Boi
 Atlanta, Georgia, U.S.
 Warren G
@@ -111,7 +111,7 @@ Newark, New Jersey, US
 Jadakiss
 Yonkers, New York, U.S.
 MF Doom
-Long Island, New York
+Long Island, New York, U.S.
 ASAP Rocky
 Manhattan, New York City, New York, U.S.
 Kid Cudi
@@ -119,7 +119,7 @@ Cleveland, Ohio, United States
 Missy Elliott
 Portsmouth, Virginia, U.S.
 Schoolboy Q
-South Figueroa Corridor, South Central Los Angeles, California, United States
+South Figueroa Corridor, Los Angeles, California, United States
 Twista
 Chicago, Illinois, U.S.
 MC Ride
@@ -127,13 +127,13 @@ Sacramento, California, U.S.
 Pusha T
 Virginia Beach, Virginia, United States
 Grandmaster Flash
-South Bronx, New York, United States
+The Bronx, New York City, New York, United States
 Wiz Khalifa
 Pittsburgh, Pennsylvania, U.S.
 Big Sean
 Detroit, Michigan, United States
 Gang Starr
-Brooklyn, New York, USA
+Brooklyn, New York City, New York, USA
 Chance the Rapper
 Chicago, Illinois, United States
 Kurupt
@@ -151,15 +151,15 @@ Decatur, Georgia, United States
 Nelly
 Austin, Texas, U.S.
 Logic (rapper)
-Gaithersburg, Maryland, US
+Gaithersburg, Maryland, U.S.
 MC Ren
-Compton, California
+Compton, California, U.S.
 Proof (rapper)
 Detroit, Michigan, U.S.
 De La Soul
-East Massapequa / Amityville, Long Island, New York, United States[1]
+East Massapequa / Amityville, Long Island, New York, United States
 AZ (rapper)
-Brooklyn, New York, USA
+Brooklyn, New York City, New York, U.S.
 Bad Meets Evil
 Detroit, Michigan, U.S.
 Krayzie Bone
@@ -167,59 +167,59 @@ Cleveland, Ohio, U.S.
 The Sugarhill Gang
 Englewood, New Jersey, United States
 Hopsin
-Panorama City, Los Angeles, California, United States[1]
+Panorama City, Los Angeles, California, United States
 Guru (rapper)
 Roxbury, Massachusetts, U.S.
 Black Thought
-Philadelphia, Pennsylvania
+Philadelphia, Pennsylvania, U.S.
 Young Jeezy
 Atlanta, Georgia, United States
 Heavy D
 Mount Vernon, New York, United States
 Kool G Rap
-Corona, Queens, New York City, U.S.
+Corona, Queens, New York City, New York, U.S.
 Tyler, the Creator
 Ladera Heights, California, United States
 Will Smith
 Philadelphia, Pennsylvania, U.S.
 DMC (rapper)
-Queens, New York, United States
+Queens, New York City, New York, United States
 Earl Sweatshirt
 Los Angeles, California, United States
 Coolio
-Monessen, Pennsylvania, USA
+Monessen, Pennsylvania, U.S.
 Bizzy Bone
-Columbus Ohio , U.S.
+Columbus, Ohio , U.S.
 EPMD
 Brentwood, New York, U.S.
 MC Lyte
-Brooklyn, New York, U.S.
+Brooklyn, New York City, New York, U.S.
 DJ Quik
 Compton, California, U.S.
 Layzie Bone
 Cleveland, Ohio, U.S.
 Lil' Kim
-Bedford–Stuyvesant, Brooklyn, New York, U.S.
+Bedford–Stuyvesant, Brooklyn, New York City, New York, U.S.
 Inspectah Deck
-Staten Island, New York
+Staten Island, New York City, New York, U.S.
 Queen Latifah
 Newark, New Jersey, U.S.
 Rick Ross
 Carol City, Florida, U.S.
 Donald Glover
-Edwards Air Force Base, California, United States[2]
+Edwards Air Force Base, California, United States
 Mac Miller
 Pittsburgh, Pennsylvania, United States
 Yelawolf
 Gadsden, Alabama, United States
 Lloyd Banks
-South Jamaica, Queens, New York, United States
+South Jamaica, Queens, New York City, New York, United States
 Eve (rapper)
 Philadelphia, Pennsylvania, U.S.
 Drake (rapper)
 Toronto, Ontario, Canada
 Nicki Minaj
-Queens, New York, U.S.
+Queens, New York City, New York, U.S.
 Pharrell Williams
 Virginia Beach, Virginia, U.S.
 The D.O.C.
@@ -227,37 +227,37 @@ Los Angeles, California, U.S.
 Mystikal
 New Orleans, Louisiana, U.S.
 Kurtis Blow
-Harlem, New York, United States
+Harlem, New York City, New York, United States
 Eric B. & Rakim
-New York, New York, United States
+New York City, New York, United States
 Big K.R.I.T.
 Meridian, Mississippi, United States
 Bun B
 Port Arthur, Texas, U.S.
 Aesop Rock
-Northport, New York
+Northport, New York, U.S.
 B-Real
-South Gate, California
+South Gate, California, U.S.
 Kool Moe Dee
 New York City, New York, United States
 Slaughterhouse (rapper)
 Brooklyn, New York City, New York, United States
 House of Pain
-Los Angeles, CA
+Los Angeles, California, U.S.
 Pharoahe Monch
-South Jamaica, Queens, New York City, United States
+South Jamaica, Queens, New York City, New York, United States
 Treach
-East Orange, New Jersey, U.S..
+East Orange, New Jersey, U.S.
 Del tha Funkee Homosapien
 Oakland, California, U.S.
 Cam'ron
-Harlem, New York, United States
+Harlem, New York City, New York, United States
 Grandmaster Flash and The Furious Five
-New York, New York, U.S.
+New York City, New York, U.S.
 MGK
 Cleveland, Ohio, U.S.
 Prodigy (rapper)
-Queens, New York, U.S.
+Queens, New York City, New York, U.S.
 Juvenile (rapper)
 New Orleans, Louisiana, U.S.
 Foxy Brown (rapper)
@@ -265,19 +265,17 @@ New York City, New York, U.S.
 Wale (rapper)
 Washington, D.C., U.S.
 R.A. The Rugged Man
-Suffolk County, New York, US
+Suffolk County, New York, U.S.
 The Pharcyde
-Los Angeles, California
+Los Angeles, California, U.S.
 Pimp C
-Port Arthur, Texas
-Wyclef Jean
-Croix-des-Bouquets, Haiti
+Port Arthur, Texas, U.S.
 Macklemore
 Seattle, Washington, U.S.
 Erick Sermon
-Brentwood, New York
+Brentwood, New York, U.S.
 Daniel Dumile
-Long Island, New York
+Long Island, New York, U.S.
 D12
 Detroit, Michigan, U.S.
 Atmosphere (rapper)
@@ -285,11 +283,11 @@ Minneapolis, Minnesota, United States
 MC Hammer
 Oakland, California, United States
 Mase
-Harlem, New York City, New York
+Harlem, New York City, New York, U.S.
 Lil Jon
 Atlanta, Georgia, United States
 Masta Ace
-Brownsville, Brooklyn, New York, USA
+Brownsville, Brooklyn, New York City, New York, U.S.
 Ab-Soul
 Carson, California, United States
 Fat Joe
@@ -313,11 +311,11 @@ Inglewood, California, U.S.
 Biz Markie
 Long Island, New York, United States
 Joe Budden
-Jersey City, New Jersey
+Jersey City, New Jersey, U.S.
 Afrika Bambaataa
-The Bronx, New York, U.S.
+The Bronx, New York City, New York, U.S.
 J Dilla
-Detroit, Michigan
+Detroit, Michigan, U.S.
 YG (rapper)
 Compton, California, United States
 Master P
@@ -325,9 +323,9 @@ New Orleans, Louisiana, United States
 Cee Lo Green
 Atlanta, Georgia, United States
 Digital Underground
-Oakland, California
+Oakland, California, U.S.
 Action Bronson
-Flushing, New York, United States
+Flushing, New York City, New York, United States
 WC (rapper)
 Westmont, Los Angeles, California U.S
 Killer Mike
@@ -341,27 +339,23 @@ Madison, Wisconsin, United States
 2 Chainz
 College Park, Georgia, U.S.
 Boogie Down Productions
-South Bronx, New York
+The Bronx, New York City, New York, U.S.
 Cassidy (rapper)
-Philadelphia, Pennsylvania, U.S.[1]
-Vinnie Paz
-Agrigento, Sicily, Italy
+Philadelphia, Pennsylvania, U.S.
 Vanilla Ice
 Dallas, Texas, U.S.
 Kris Kross
 Atlanta, Georgia, United States
-Dead Prez
-(M1) Brooklyn, New York; (stic.man) Tallahassee, Florida
 El-P
-Brooklyn, New York City, United States
+Brooklyn, New York City, New York, United States
 Jeru the Damaja
 East New York, Brooklyn, New York City, New York, United States
 Sean Combs
-Harlem, New York City, U.S.
+Harlem, New York City, New York, U.S.
 Beanie Sigel
-South Philadelphia, Pennsylvania
+South Philadelphia, Pennsylvania, U.S.
 Adam Yauch
-Brooklyn, New York City, United States
+Brooklyn, New York City, New York, United States
 Junior M.A.F.I.A. & Biggie
 New York City, New York, United States
 Chamillionaire
@@ -375,9 +369,9 @@ Houston, Texas, United States
 Sir Mix-a-Lot
 Seattle, Washington, U.S.
 Canibus
-South Bronx, The Bronx, New York, USA
+South Bronx, The Bronx, New York City, New York, USA
 Havoc (rapper)
-Queens, New York, U.S.
+Queens, New York City, New York, U.S.
 Obie Trice
 Detroit, Michigan, U.S.
 LeCrae
