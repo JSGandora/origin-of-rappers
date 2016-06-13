@@ -105,15 +105,26 @@ for idx in range(0, len(df['name'])):
         num.append(city_count[city_name])
         lat.append(df['lat'][idx])
         lon.append(df['lon'][idx])
-        rappers_list.append(rappers_by_city[city_name])
+        rappers_string = ''
+        count = 0
+        for rapper in rappers_by_city[city_name]:
+            count += 1
+            if count % 5 == 0:
+                rappers_string += '<br>'
+            rappers_string = rappers_string + ', ' + rapper
+        rappers_string = rappers_string[2:]
+        rappers_list.append(rappers_string)
+
 df_new = pd.DataFrame({'name': name, 'num': num, 'lat': lat, 'lon': lon, 'rappers_list': rappers_list})
 
-df_new['text'] = df_new['name'] + '<br>Count ' + df_new['num'].astype(str) + str(df_new['rappers_list'])
+print df_new.head()
+
+df_new['text'] = df_new['name'] + '<br><b>Count:</b> ' + df_new['num'].astype(str) + '<br>' + df_new['rappers_list'].astype(str)
 limits = [(0,2),(3,10),(11,50),(51,100),(101,200)]
 # limits = [(10,20),(5,10),(3,5),(2,3),(0,1)]
 colors = ["rgb(0,116,217)","rgb(255,65,54)","rgb(133,20,75)","rgb(255,133,27)","lightgrey"]
 cities = []
-scale = 0.01
+scale = 0.005
 
 for i in range(len(limits)):
     lim = limits[i]
