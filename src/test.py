@@ -1,52 +1,50 @@
-# import necessary libraries
-from bs4 import BeautifulSoup
-import urllib, re, csv
-from itertools import izip
+# Learn about API authentication here: https://plot.ly/python/getting-started
+# Find your api_key here: https://plot.ly/settings/ap
 
-# make our "soup"
-stats_url = 'http://www.nba.com/warriors/stats'
-r = urllib.urlopen(stats_url).read()
-soup = BeautifulSoup(r, "html.parser")
+import plotly.plotly as py
+import pandas as pd
 
-# check that we read in successfully
-print type(soup)
+df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/2014_us_cities.csv')
+df.head()
 
-# use properties of NBA stats page to identify player divs
-players = soup.find_all('div', class_='player-name__inner-wrapper')
+df['text'] = df['name'] + '<br>Population ' + (df['pop']/1e6).astype(str)+' million'
+limits = [(0,2),(3,10),(11,20),(21,50),(50,3000)]
+colors = ["rgb(0,116,217)","rgb(255,65,54)","rgb(133,20,75)","rgb(255,133,27)","lightgrey"]
+cities = []
+scale = 5000
 
+for i in range(len(limits)):
+    lim = limits[i]
+    df_sub = df[lim[0]:lim[1]]
+    city = dict(
+        type = 'scattergeo',
+        locationmode = 'USA-states',
+        lon = df_sub['lon'],
+        lat = df_sub['lat'],
+        text = df_sub['text'],
+        marker = dict(
+            size = df_sub['pop']/scale,
+            color = colors[i],
+            line = dict(width=0.5, color='rgb(40,40,40)'),
+            sizemode = 'area'
+        ),
+        name = '{0} - {1}'.format(lim[0],lim[1]) )
+    cities.append(city)
 
-# functions to extract fields from player divs
-def getName(player):
-    allText = player.get_text()
-    print allText
-    return (re.findall('\d+|\D+', allText)[0])  # uses regular expressions
+layout = dict(
+        title = '2014 US city populations<br>(Click legend to toggle traces)',
+        showlegend = True,
+        geo = dict(
+            scope='usa',
+            projection=dict( type='albers usa' ),
+            showland = True,
+            landcolor = 'rgb(217, 217, 217)',
+            subunitwidth=1,
+            countrywidth=1,
+            subunitcolor="rgb(255, 255, 255)",
+            countrycolor="rgb(255, 255, 255)"
+        ),
+    )
 
-
-def getNumber(player):
-    allText = player.get_text()
-    return (re.findall('\d+|\D+', allText)[1])
-
-
-def getPosition(player):
-    allText = player.get_text()
-    return (re.findall('\d+|\D+', allText)[2]).split(u"\x95")[1]
-
-
-def getID(player):
-    split_src = (player.find('img')['src']).split('/')
-    return split_src[len(split_src) - 1].split('.')[0]
-
-
-# apply functions and make lists of player attributes
-names = [getName(player) for player in players]
-ids = [getID(player) for player in players]
-positions = [getPosition(player) for player in players]
-numbers = [getNumber(player) for player in players]
-
-print names, ids, positions, numbers
-
-# write to a new data file in CSV format
-with open('player_data.csv', 'wb') as f:
-    writer = csv.writer(f)
-    writer.writerows(izip(names, ids, positions, numbers))
-
+fig = dict( data=cities, layout=layout )
+url = py.plot( fig, validate=False, filename='d3-bubble-map-populations' )
