@@ -109,10 +109,10 @@ for idx in range(0, len(df['name'])):
         count = 0
         for rapper in rappers_by_city[city_name]:
             count += 1
+            rappers_string = rappers_string + rapper + ', '
             if count % 5 == 0:
                 rappers_string += '<br>'
-            rappers_string = rappers_string + ', ' + rapper
-        rappers_string = rappers_string[2:]
+        rappers_string = rappers_string[:len(rappers_string)-2]
         rappers_list.append(rappers_string)
 
 df_new = pd.DataFrame({'name': name, 'num': num, 'lat': lat, 'lon': lon, 'rappers_list': rappers_list})
