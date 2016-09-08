@@ -1,8 +1,21 @@
 # origin-of-rappers
-Code to help scrape top 200 rappers and to find their origins using Wikipedia API
 
-# Results
+This code is used for analyzing the city of origin for the top 200 rappers according to Ranker.com. The city of origin data was scraped from Wikipedia and the results of my analysis can be found here: http://datanite.blogspot.com/2016/09/origin-of-rappers.html
 
-Number of rappers by state: https://plot.ly/~JSGandora/2.embed
+### Prerequisities
 
-Number of rappers by city: https://plot.ly/~JSGandora/6.embed
+You will need Python 2.7 and the following Python packages:
+- plotly
+- operator
+- pandas
+- bs4
+- urllib
+- wikipedia
+
+## Built With
+
+* PyCharm
+
+## Acknowledgments
+
+* The code used to plot the bubble map of the origins of rappers was altered from the example code on plot.ly: https://plot.ly/python/bubble-maps/ The code that was altered is marked in the AnalyzeBirthplaces.py file.

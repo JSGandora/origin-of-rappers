@@ -1,10 +1,15 @@
+'''
+The following code plots the bar graphs of the city of origin and state of origin counts, and a bubble map of the cities
+of origin of all the rappers.
+'''
+
 import plotly.plotly as py
 import plotly.graph_objs as go
 import operator
+import pandas as pd
 
 # read in birthplaces text file and input information into birthplace dictionary
 birthplace = {}
-
 with open("birthplaces_final.txt") as f:
     idx = 0
     artist = ''
@@ -29,7 +34,6 @@ for key in birthplace.keys():
 
 # count the number of rappers from each state
 state_count = {}
-
 for val in state.values():
     if state_count.has_key(val):
         state_count[val] += 1
@@ -38,7 +42,6 @@ for val in state.values():
 
 # count the number of rappers from each city
 city_count = {}
-
 for val in city.values():
     if city_count.has_key(val):
         city_count[val] += 1
@@ -77,16 +80,11 @@ for idx in range(len(sorted_cities)-1, -1, -1):
 # plot bar graphs of number of rappers per state/city
 states_data = [go.Bar(x=sorted_states, y=state_sorted_counts)]
 cities_data = [go.Bar(x=sorted_cities, y=city_sorted_counts)]
+py.plot(states_data, filename='rappers_states') # plots states bar graph
+py.plot(cities_data, filename='rappers_cities') # plots cities bar graph
 
-# py.plot(states_data, filename='rappers_states')
-# py.plot(cities_data, filename='rappers_cities')
-
-# Learn about API authentication here: https://plot.ly/python/getting-started
-# Find your api_key here: https://plot.ly/settings/ap
-
-import plotly.plotly as py
-import pandas as pd
-
+# load the coordinates of the cities of the United States in prepration for plotting the bubble map, the following code
+# was altered from the example page on bubble maps on plot.ly: https://plot.ly/python/bubble-maps/
 df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/2014_us_cities.csv')
 df.head()
 name = []
@@ -117,11 +115,8 @@ for idx in range(0, len(df['name'])):
 
 df_new = pd.DataFrame({'name': name, 'num': num, 'lat': lat, 'lon': lon, 'rappers_list': rappers_list})
 
-print df_new.head()
-
 df_new['text'] = df_new['name'] + '<br><b>Count:</b> ' + df_new['num'].astype(str) + '<br>' + df_new['rappers_list'].astype(str)
 limits = [(0,2),(3,10),(11,50),(51,100),(101,200)]
-# limits = [(10,20),(5,10),(3,5),(2,3),(0,1)]
 colors = ["rgb(0,116,217)","rgb(255,65,54)","rgb(133,20,75)","rgb(255,133,27)","lightgrey"]
 cities = []
 scale = 0.005
